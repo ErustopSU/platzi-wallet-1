@@ -1,17 +1,19 @@
 package com.cristianvillamil.platziwallet
 
 class UserSingleton {
-    var userName = "Eneyersitoo"
-    companion object{
-        private var instance : UserSingleton? = null
+    var userName = "Cristian"
+
+    companion object {
+        private var instance: UserSingleton? = null
 
 
-        fun getInstance() : UserSingleton {
-            if (instance == null){
-                instance == UserSingleton()
+        fun getInstance(): UserSingleton {
+            if (instance == null) {
+                instance = UserSingleton()
             }
             return instance as UserSingleton
         }
-
     }
+
+
 }

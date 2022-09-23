@@ -141,16 +141,8 @@
                 android:layout_height="match_parent"
                 android:layout_margin="18dp">
 
-                <com.cristianvillamil.platziwallet.ui.PercentageView
-                    android:id="@+id/circularProgress"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintTop_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"/>
-
                 <com.mikhaellopez.circularprogressbar.CircularProgressBar
-                    android:id="@+id/circularProgress22"
+                    android:id="@+id/circularProgress"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:cpb_background_progressbar_color="@color/divider"
@@ -272,5 +264,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </ScrollView>
